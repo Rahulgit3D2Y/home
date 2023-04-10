@@ -7,7 +7,7 @@ import Link_ from './Link_';
 const Hero = () => {
   return (
     <div className=' bg-dark home '>
-        <div className="row">
+        <div className="row m-0">
           <div className="col-md-6 my-5">
             <div className="container bg-white something">
               <Link_/>
@@ -15,7 +15,7 @@ const Hero = () => {
                 <Routes>
                   <Route path='/'element={<Sub1/>}/>
                   <Route path="/Sub2" element={<Sub2/>}/>
-                  <Route path="/SUB3" element={<Sub3/>}/>
+                  <Route path="/Sub3" element={<Sub3/>}/>
                 </Routes>
               </div>
             </div>
