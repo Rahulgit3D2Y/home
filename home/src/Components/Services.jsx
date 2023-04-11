@@ -3,12 +3,12 @@ import Service_provided from './subpages/Service_provided'
 
 const ser_pro=[
     {
-        img:"https://source.unsplash.com/1000x700/?",
+        img:"https://source.unsplash.com/1000x700/?room",
         title:'aaaaaaaaaaaaaaaaa',
         detail:'bbbbbbbbbbbbbb',
     },
     {
-        img:"https://source.unsplash.com/1000x700/?",
+        img:"https://source.unsplash.com/1000x700/?motel",
         title:'ccccccccccc',
         detail:'ddddddddddddddddddddd',
     },

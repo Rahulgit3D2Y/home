@@ -19,6 +19,9 @@ const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link" href="#">Link</a>
               </li>
+              <li>
+                <div ><a className="nav-link active" aria-current="page" href="#">About</a></div>
+              </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
@@ -30,17 +33,19 @@ const Navbar = () => {
                     <hr className="dropdown-divider"/>
                   </li>
                   <li><a className="dropdown-item" href="#">Something else here</a></li>
+                  <li><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
             </ul>
             <div className="other-links my-auto ">
-              <div ><a className="nav-link active" aria-current="page" href="#">About</a></div>
+              
+              <div className="btn bg-light">log in</div>
+              <div className="btn btn-outline-success ">Sign in</div>
             </div>
           </div>
         </div>
         <div className="not-collapse">
-          <div className="btn bg-light">log in</div>
-          <div className="btn btn-outline-success ">Sign in</div>
+          
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
